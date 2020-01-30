@@ -1,0 +1,112 @@
+#hero {
+    background: url("./images/home.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -1em;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;  
+}
+
+button {
+    background-color: #ffffb3;
+    border: 1px solid #e67e22;
+    color: #0d4d19;
+    margin-right: 10px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading > h2 {
+    font-size: 6em;
+    color: white;
+    letter-spacing: 12px;
+}
+
+.heading > p {
+    font-size: 35px;
+    color: white;
+}
+
+.wrapper {
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 50px 80px 0px;
+    width: 100%;
+}
+
+.heading2 h2 {
+    color:   #ff9933;
+}
+
+.flexItems{
+    display: flex;
+    align-items: center;
+}
+
+/* .firstPic img {
+    width: 135%;
+} */
+
+
+
+div.flexHeading {
+    width: 20%;
+}
+
+ .firstPic {
+    width: 60%;
+}
+
+.firstPic img {
+    width: 100%;
+}
+
+.flexHeading .h2 {
+    width: 20%;
+}
+
+.flexItems2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.flexHeading {
+    width: 20%;
+    margin: 0 10em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.buttons {
+    grid-column-start:5;
+    grid-column-end:2;
+    margin-left: 5em;
+}
+
+.form {
+    grid-column-start: 4;
+    margin-top: -40px;
+}
+
+footer {
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    /* height: auto; */
+    padding: 1em;
+}
